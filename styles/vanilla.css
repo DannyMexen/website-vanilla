@@ -36,3 +36,9 @@ nav > li > a {
 nav > li > a:hover {
   color: #b98405; /* Options: c29407, dea214, e2a30b b98405*/
 }
+
+/* Main */
+/* Section Headers */
+.section-header {
+    margin: 2%;
+}
