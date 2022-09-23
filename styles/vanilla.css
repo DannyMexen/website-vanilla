@@ -2,7 +2,7 @@
 body {
   background-color: rgb(248, 249, 252);
   font-family: "Raleway", sans-serif; /* Options: Asap, Raleway. More at https://fonts.google.com/ */
-  color: grey;
+  color: #5b5b5b;
 }
 
 /* Header */
@@ -25,7 +25,7 @@ li {
 
 nav > li > a {
   text-decoration: none;
-  color: grey;
+  color: #5b5b5b;
 }
 
 nav > li > a:hover {
