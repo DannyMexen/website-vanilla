@@ -15,6 +15,7 @@ header {
 
 /* Navigation */
 nav {
+
   list-style-type: none;
   margin-top: 2%;
   display: flex;
@@ -22,11 +23,11 @@ nav {
   justify-content: space-around;
 }
 
-li {
+.navigation-list-item {
   display: inline-block;
 }
 
-nav > li > a {
+.navigation-link {
   flex: 1;
   text-decoration: none;
   font-weight: bold;
@@ -38,7 +39,30 @@ nav > li > a:hover {
 }
 
 /* Main */
-/* Section Headers */
+/* Sections */
 .section-header {
-    margin: 2%;
+  margin: 2%;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+/* Articles */
+article {
+  flex: 1;
+  border: 1px solid rgb(231, 229, 229);
+  border-radius: 25px;
+  margin-right: 1%;
+  background-color: white;
+}
+
+article h2 {
+  padding: 3%;
+}
+
+.list-details {
+    list-style: none;
 }
