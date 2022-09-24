@@ -19,6 +19,7 @@ nav {
   list-style-type: none;
   margin-top: 2%;
   display: flex;
+  flex-flow: wrap;
   align-items: center;
   justify-content: space-around;
 }
@@ -45,6 +46,7 @@ nav > li > a:hover {
 }
 section {
   display: flex;
+  flex-flow: wrap;
   align-items: center;
   justify-content: space-around;
   margin: 2%;
