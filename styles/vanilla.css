@@ -9,7 +9,7 @@ body {
 header {
   background-color: white;
   border: 1px solid rgb(231, 229, 229);
-  border-radius: 25px;
+  /* border-radius: 25px; */
   padding: 1%;
 }
 
@@ -43,6 +43,7 @@ nav > li > a:hover {
 /* Sections */
 .section-header {
   margin: 2%;
+  color: #b98405; /* Options: c29407, dea214, e2a30b b98405*/
 }
 section {
   display: flex;
