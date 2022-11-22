@@ -2,15 +2,15 @@
 body {
   background-color: rgb(248, 249, 252);
   font-family: "Raleway", sans-serif; /* Options: Asap, Raleway. More at https://fonts.google.com/ */
-  color: #5b5b5b;
+  color: #404040;
 }
 
 /* Header */
 header {
   background-color: white;
-  border: 1px solid rgb(231, 229, 229);
+  /* border: 1px solid rgb(231, 229, 229); */
   /* border-radius: 25px; */
-  padding: 1%;
+  /* padding: 1%; */
 }
 
 /* Navigation */
@@ -32,18 +32,18 @@ nav {
   flex: 1;
   text-decoration: none;
   font-weight: bold;
-  color: #5b5b5b;
+  color: #404040;
 }
 
 nav > li > a:hover {
-  color: #b98405; /* Options: c29407, dea214, e2a30b b98405*/
+  color: #ffd966; /* Options: c29407, dea214, e2a30b b98405*/
 }
 
 /* Main */
 /* Sections */
 .section-header {
   margin: 2%;
-  color: #b98405; /* Options: c29407, dea214, e2a30b b98405*/
+  color: #ffd966; /* Options: c29407, dea214, e2a30b b98405*/
 }
 section {
   display: flex;
