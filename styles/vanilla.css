@@ -7,11 +7,11 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient( 90deg, white 10%, #b4c6e7)
+  background: linear-gradient( 90deg, white 10%, #b4c6e7);
   /* background-color: white; */
-  /* border: 1px solid rgb(231, 229, 229); */
-  /* border-radius: 25px; */
-  /* padding: 1%; */
+  border: 1px solid rgb(231, 229, 229);
+  border-radius: 25px;
+  padding: 1%;
 }
 
 .arcarius-yellow {
@@ -24,6 +24,10 @@ header {
 
 .arcarius-blue {
   color: #b4c6e7;
+}
+
+.arcarius-logo {
+  padding-top: 1%;
 }
 
 /* Navigation */
@@ -56,7 +60,7 @@ nav > li > a:hover {
 /* Sections */
 .section-header {
   margin: 2%;
-  color: #ffd966; /* Options: c29407, dea214, e2a30b b98405*/
+  color: #b4c6e7; /* Options: c29407, dea214, e2a30b b98405 404040 ffd966 b4c6e7*/
 }
 section {
   display: flex;
