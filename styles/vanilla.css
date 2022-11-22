@@ -7,10 +7,23 @@ body {
 
 /* Header */
 header {
-  background-color: white;
+  background: linear-gradient( 90deg, white 10%, #b4c6e7)
+  /* background-color: white; */
   /* border: 1px solid rgb(231, 229, 229); */
   /* border-radius: 25px; */
   /* padding: 1%; */
+}
+
+.arcarius-yellow {
+  color: #ffd966;
+}
+
+.arcarius-grey {
+  color: #404040;
+}
+
+.arcarius-blue {
+  color: #b4c6e7;
 }
 
 /* Navigation */
