@@ -88,3 +88,15 @@ article h2 {
 .list-details {
   list-style: none;
 }
+
+#philosophy {
+  flex: 2;
+}
+
+.picture-and-quote {
+  flex: 1;
+}
+
+p {
+  color: #404040;
+}
