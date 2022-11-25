@@ -73,7 +73,7 @@ section {
 }
 
 /* Articles */
-article {
+article, img {
   flex: 1;
   border: 1px solid rgb(231, 229, 229);
   border-radius: 25px;
@@ -83,6 +83,12 @@ article {
 
 article h2 {
   padding: 3%;
+}
+
+article p {
+  padding-left: 3%;
+  padding-bottom: 1%;
+  color: #404040;
 }
 
 .list-details {
@@ -95,8 +101,4 @@ article h2 {
 
 .picture-and-quote {
   flex: 1;
-}
-
-p {
-  color: #404040;
 }
