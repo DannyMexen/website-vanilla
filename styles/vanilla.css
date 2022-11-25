@@ -85,6 +85,24 @@ figure {
 text-align: center;
 }
 
+.quote-text {
+  flex: 2;
+}
+
+.quote-image {
+  flex: 1;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.spacer {
+flex: 1;
+}
+
+h4 {
+  color: #b4c6e7;
+}
+
 article h2 {
   padding: 3%;
 }
