@@ -73,7 +73,7 @@ section {
 }
 
 /* Articles */
-article, img {
+article {
   flex: 1;
   border: 1px solid rgb(231, 229, 229);
   border-radius: 25px;
@@ -93,12 +93,4 @@ article p {
 
 .list-details {
   list-style: none;
-}
-
-#philosophy {
-  flex: 2;
-}
-
-.picture-and-quote {
-  flex: 1;
 }
