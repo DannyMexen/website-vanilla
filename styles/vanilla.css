@@ -17,6 +17,7 @@ header {
 /* Alignment of logo and company text and slogan */
 .arcarius-logo {
   padding-top: 1%;
+  flex: 1;
   margin-bottom: -6%;
   margin-left: -4%;
 }
@@ -91,12 +92,16 @@ article {
   background-color: white;
 }
 
+.subheading {
+  margin-left: 4%;
+}
+
 article h2 {
-  padding: 2%;
+  padding: 1%;
 }
 
 article p {
-  padding-left: 4%;
+  padding-left: 2%;
   padding-bottom: 1%;
   color: #404040;
 }
