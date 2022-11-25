@@ -64,6 +64,11 @@ nav > li > a:hover {
   margin: 2%;
   color: #b4c6e7; /* Options: c29407, dea214, e2a30b b98405 404040 ffd966 b4c6e7*/
 }
+
+.section-header-opener {
+  margin: 2%;
+  color: #404040;
+}
 section {
   display: flex;
   flex-flow: row wrap;
@@ -82,7 +87,7 @@ article {
 }
 
 figure {
-text-align: center;
+  text-align: center;
 }
 
 .quote-text {
@@ -96,7 +101,7 @@ text-align: center;
 }
 
 .spacer {
-flex: 1;
+  flex: 1;
 }
 
 blockquote h2 {
