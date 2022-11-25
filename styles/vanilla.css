@@ -14,6 +14,13 @@ header {
   padding: 1%;
 }
 
+/* Alignment of logo and company text and slogan */
+.arcarius-logo {
+  padding-top: 1%;
+  margin-bottom: -6%;
+  margin-left: -4%;
+}
+
 /* These would benefit from variables */
 /* Official Arcarius Mexen colors */
 .arcarius-yellow {
@@ -26,12 +33,6 @@ header {
 
 .arcarius-blue {
   color: #b4c6e7;
-}
-
-.arcarius-logo {
-  padding-top: 1%;
-  margin-bottom: -6%;
-  margin-left: -4%;
 }
 
 /* Navigation */
@@ -62,13 +63,13 @@ nav > li > a:hover {
 /* Main */
 /* Sections */
 .section-header {
-  margin: 2%;
+  margin: 3%;
   color: #b4c6e7; /* Options: c29407, dea214, e2a30b b98405 404040 ffd966 b4c6e7*/
 }
 
 /* Text following a section header */
 .section-header-opener {
-  margin: 2%;
+  margin: 3%;
   color: #404040;
 }
 
@@ -86,16 +87,16 @@ article {
   flex: 1;
   border: 1px solid rgb(231, 229, 229);
   border-radius: 25px;
-  margin: 1.5%;
+  margin: 1%;
   background-color: white;
 }
 
 article h2 {
-  padding: 3%;
+  padding: 2%;
 }
 
 article p {
-  padding-left: 3%;
+  padding-left: 4%;
   padding-bottom: 1%;
   color: #404040;
 }
@@ -117,7 +118,6 @@ figure {
 blockquote h2 {
   color: #b4c6e7;
 }
-
 
 .list-details {
   list-style: none;
