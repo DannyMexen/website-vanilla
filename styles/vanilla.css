@@ -14,6 +14,8 @@ header {
   padding: 1%;
 }
 
+/* These would benefit from variables */
+/* Official Arcarius Mexen colors */
 .arcarius-yellow {
   color: #ffd966;
 }
@@ -88,6 +90,16 @@ article {
   background-color: white;
 }
 
+article h2 {
+  padding: 3%;
+}
+
+article p {
+  padding-left: 3%;
+  padding-bottom: 1%;
+  color: #404040;
+}
+
 figure {
   text-align: center;
 }
@@ -106,15 +118,6 @@ blockquote h2 {
   color: #b4c6e7;
 }
 
-article h2 {
-  padding: 3%;
-}
-
-article p {
-  padding-left: 3%;
-  padding-bottom: 1%;
-  color: #404040;
-}
 
 .list-details {
   list-style: none;
