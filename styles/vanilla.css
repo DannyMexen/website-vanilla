@@ -131,3 +131,9 @@ blockquote h2 {
   text-decoration: none;
   color: #404040;
 }
+
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 5%;
+}
