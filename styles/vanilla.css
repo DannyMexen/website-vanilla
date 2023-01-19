@@ -56,7 +56,7 @@ nav {
   color: #404040;
 }
 
-nav > li > a:hover {
+nav > li > a:hover, .contact-link:hover {
   color: #b4c6e7; /* Options: c29407, dea214, e2a30b b98405*/
 }
 
@@ -125,4 +125,9 @@ blockquote h2 {
 
 .list-details {
   list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #404040;
 }
