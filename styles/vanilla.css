@@ -105,10 +105,6 @@ article p, footer p {
   color: #404040;
 }
 
-figure {
-  text-align: center;
-}
-
 .quote-text {
   flex: 2;
 }
