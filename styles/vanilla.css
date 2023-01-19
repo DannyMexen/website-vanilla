@@ -130,6 +130,7 @@ blockquote h2 {
 .contact-link {
   text-decoration: none;
   color: #404040;
+  margin-left: -3%;
 }
 
 .icon {
