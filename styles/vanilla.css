@@ -99,7 +99,7 @@ article h2 {
   padding: 1%;
 }
 
-article p {
+article p, footer p {
   padding-left: 2%;
   padding-bottom: 1%;
   color: #404040;
@@ -142,4 +142,21 @@ blockquote h2 {
   height: 1.5em;
   margin-right: 2%;
   margin-left: -3%;
+}
+
+/* footer */
+footer {
+  background: linear-gradient(90deg, #ffffff, #ffd966);
+  /* ffd966 404040 b4c6e7 */
+  border: 1px solid rgb(231, 229, 229);
+  border-radius: 25px;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.copyright {
+  flex: 1;
+  text-align: center;
 }
