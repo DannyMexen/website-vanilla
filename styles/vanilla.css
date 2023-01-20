@@ -119,6 +119,10 @@ blockquote h2 {
   color: #b4c6e7;
 }
 
+figcaption {
+    text-align: center;
+}
+
 .list-details {
   list-style: none;
 }
