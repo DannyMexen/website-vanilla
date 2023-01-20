@@ -120,8 +120,7 @@ blockquote h2 {
 }
 
 figcaption {
-    text-align: center;
-    margin-left: 3%;
+    text-align: right;
 }
 
 .list-details {
