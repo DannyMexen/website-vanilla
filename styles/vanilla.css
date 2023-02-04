@@ -106,13 +106,13 @@ article p, footer p {
 }
 
 .quote-text {
-  flex: 2;
+  flex: 3;
+  text-align: center;
 }
 
 .quote-image {
   flex: 1;
-  margin-left: 7%;
-  margin-right: 5%;
+  text-align: center;
 }
 
 blockquote h2 {
