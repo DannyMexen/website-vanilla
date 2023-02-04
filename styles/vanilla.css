@@ -106,7 +106,7 @@ article p, footer p {
 }
 
 .quote-text {
-  flex: 2;
+  flex: 1;
   text-align: center;
   margin-right: 7%;
 }
