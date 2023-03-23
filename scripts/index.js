@@ -2,24 +2,33 @@
 // Author: Danny Mexen
 // Date: Tue 23 Mar 2023
 
+// Arcarius Mexen
+const amws = {
+    companyName : {
+        abbreviated: "AMWS",
+        expanded: "Arcarius Mexen Web Services",
+    },
+    motto: "Simple, Elegant.",
+    tagline: "Creative trustee for all your enterprise application needs."
+};
+
 
 // <head>
-const amws = "AMWS";
 const title = document.querySelector('title');
-title.textContent = amws;
+title.textContent = amws.companyName.abbreviated;
 // TODO: meta
 
 
 // <header>
-const companyName = `Arcarius Mexen Web Services ${amws}`;
+const fullName = `${amws.companyName.expanded} (${amws.companyName.abbreviated})`;
 const headerCompanyName = document.querySelector('#header-company-name');
-headerCompanyName.textContent = 'Arcarius Mexen Web Services (AMWS)';
+headerCompanyName.textContent = fullName;
 
 const headerMotto = document.querySelector('#header-motto');
-headerMotto.textContent = 'Simple, Elegant.';
+headerMotto.textContent = amws.motto;
 
 const headerTagline = document.querySelector('#header-tagline');
-headerTagline.textContent = 'Creative trustee for all your enterprise application needs.';
+headerTagline.textContent = amws.tagline;
 
 // <nav>
 const services = 'Services';
