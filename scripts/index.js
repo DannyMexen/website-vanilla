@@ -11,5 +11,9 @@ const title = document.querySelector('title');
 title.textContent = amws;
 
 // <header>
-const h1 = document.querySelector('h1');
-h1.textContent = amwsFull;
+const companyName = document.querySelector('#company-name');
+companyName.textContent = amwsFull;
+const motto = document.querySelector("#motto");
+motto.textContent = "Simple, Elegant.";
+const tagline = document.querySelector("#tagline");
+tagline.textContent = "Creative trustee for all your enterprise applications.";
