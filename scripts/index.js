@@ -30,35 +30,39 @@ headerMotto.textContent = amws.motto;
 const headerTagline = document.querySelector('#header-tagline');
 headerTagline.textContent = amws.tagline;
 
+// Site map
+const map = {
+    services: "Services",
+    products: "Products",
+    about: "About",
+    contact: "Contact",
+};
+
 // <nav>
-const services = 'Services';
 const navServices = document.querySelector('#nav-services');
-navServices.textContent = services.toUpperCase();
+navServices.textContent = map.services.toUpperCase();
 
-const products = 'Products';
 const navProducts = document.querySelector('#nav-products');
-navProducts.textContent = products.toUpperCase();
+navProducts.textContent = map.products.toUpperCase();
 
-const about = 'About';
 const navAbout = document.querySelector('#nav-about');
-navAbout.textContent = about.toUpperCase();
+navAbout.textContent = map.about.toUpperCase();
 
-const contact = 'Contact';
 const navContact = document.querySelector('#nav-contact');
-navContact.textContent = contact.toUpperCase();
+navContact.textContent = map.contact.toUpperCase();
 
 
 // <main> <section> headers
 const mainServices = document.querySelector('#main-services');
-mainServices.textContent = services;
+mainServices.textContent = map.services;
 
 const mainProducts = document.querySelector('#main-products');
-mainProducts.textContent = products;
+mainProducts.textContent = map.products;
 
 const mainAbout = document.querySelector('#main-about');
-mainAbout.textContent = about;
+mainAbout.textContent = map.about;
 
 const mainContact = document.querySelector('#main-contact');
-mainContact.textContent = contact;
+mainContact.textContent = map.contact;
 
 
