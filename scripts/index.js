@@ -66,3 +66,4 @@ const mainContact = document.querySelector('#main-contact');
 mainContact.textContent = map.contact;
 
 
+// TODO: Forms
