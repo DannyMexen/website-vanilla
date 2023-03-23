@@ -2,8 +2,14 @@
 // Author: Danny Mexen
 // Date: Tue 23 Mar 2023
 
+// Company name
+const amws = "AMWS";
+const amwsFull = `Arcarius Mexen Web Services (${amws})`;
+
 // <head>
 const title = document.querySelector('title');
-const amws = "amws";
-const capitalizedAMWS = amws.toUpperCase();
-title.textContent = capitalizedAMWS;
+title.textContent = amws;
+
+// <header>
+const h1 = document.querySelector('h1');
+h1.textContent = amwsFull;
