@@ -4,4 +4,6 @@
 
 // <head>
 const title = document.querySelector('title');
-title.textContent = "Arcarius Mexen";
+const amws = "amws";
+const capitalizedAMWS = amws.toUpperCase();
+title.textContent = capitalizedAMWS;
