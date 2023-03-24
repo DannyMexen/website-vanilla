@@ -12,11 +12,12 @@ const amws = {
     tagline: "Creative trustee for all your enterprise application needs."
 };
 
-const fullName = `${amws.companyName.expanded} (${amws.companyName.abbreviated}) - ${amws.tagline}`;
+const fullName = `${amws.companyName.expanded} (${amws.companyName.abbreviated})`;
+const fullNameTagline = `${fullName} - ${amws.tagline}`;
 
 // <head>
 const title = document.querySelector('title');
-title.textContent = fullName;
+title.textContent = fullNameTagline;
 // TODO: meta
 
 
