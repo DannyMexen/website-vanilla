@@ -12,15 +12,16 @@ const amws = {
     tagline: "Creative trustee for all your enterprise application needs."
 };
 
+const fullName = `${amws.companyName.expanded} (${amws.companyName.abbreviated})`;
+const fullNameTagline = `${fullName} - ${amws.tagline}`;
 
 // <head>
 const title = document.querySelector('title');
-title.textContent = amws.companyName.abbreviated;
+title.textContent = fullNameTagline;
 // TODO: meta
 
 
 // <header>
-const fullName = `${amws.companyName.expanded} (${amws.companyName.abbreviated})`;
 const headerCompanyName = document.querySelector('#header-company-name');
 headerCompanyName.textContent = fullName;
 
