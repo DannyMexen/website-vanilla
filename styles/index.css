@@ -90,6 +90,7 @@ article {
   border-radius: 25px;
   margin: 1%;
   background-color: white;
+  box-shadow: 0 4px 8px 0 #b4c6e7;
 }
 
 .subheading {
