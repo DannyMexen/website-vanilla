@@ -43,8 +43,8 @@ const map = {
 const navServices = document.querySelector("#nav-services");
 navServices.textContent = map.services.toUpperCase();
 
-const navProducts = document.querySelector("#nav-products");
-navProducts.textContent = map.products.toUpperCase();
+//const navProducts = document.querySelector("#nav-products");
+//navProducts.textContent = map.products.toUpperCase();
 
 const navAbout = document.querySelector("#nav-about");
 navAbout.textContent = map.about.toUpperCase();
@@ -57,8 +57,8 @@ navContact.textContent = map.contact.toUpperCase();
 const mainServices = document.querySelector("#main-services");
 mainServices.textContent = map.services;
 
-const mainProducts = document.querySelector("#main-products");
-mainProducts.textContent = map.products;
+//const mainProducts = document.querySelector("#main-products");
+//mainProducts.textContent = map.products;
 
 const mainAbout = document.querySelector("#main-about");
 mainAbout.textContent = map.about;
