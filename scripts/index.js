@@ -9,7 +9,7 @@ const amws = {
         expanded: "Arcarius Mexen Web Services",
     },
     motto: "Simple, Elegant.",
-    tagline: "Creative trustee for all your enterprise application needs."
+    tagline: "Cybersecurity for Zambian enterprises."
 };
 
 const fullName = `${amws.companyName.expanded} (${amws.companyName.abbreviated})`;
